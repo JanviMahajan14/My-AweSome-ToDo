@@ -1,0 +1,148 @@
+
+body{
+
+    background:url("http://unsplash.it/1500/1000?image=881&blur=50")
+    no-repeat center center fixed;
+    border-radius: 3px;
+
+}
+
+input[type = checkbox]:checked +label {
+    text-decoration: line-through;
+    opacity:0.75;
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    transition: all .07s ease;
+    background-color: #34669c;
+    color: white;
+    
+  }
+
+.container{
+    width:400px;
+    height:710px;
+    text-align: center;
+    margin:auto;
+    margin-top: 35px;
+    background-color:rgb(255, 255, 255);
+    top:43px;
+    border:1.1px solid rgb(230, 230, 230);
+    border-radius: 4px;
+    border-color:#34669c ;
+    box-shadow: 0 0 3rem #34669c;
+
+
+}
+
+i{
+    color:rgb(1, 109, 191)
+   
+}
+
+.heading{
+    margin: 22px auto 12px;
+    margin-top: 22px;
+    margin-right: auto;
+    margin-bottom: 12px;
+    margin-left: auto;
+    color:#161c25;
+    font-size: 46px;
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+
+}
+
+#tocheck,#checked{
+    width: 30px; 
+    height: 30px; 
+    
+}
+ 
+label{
+     display: inline-block;
+     margin-top: -180px;
+     overflow: hidden;
+ }
+  
+
+#input{
+    width:266px;
+    height:35px;
+    border:1.1px solid rgb(230, 230, 230);
+    border-radius: 3px;
+    margin-right: 10px;
+    text-overflow: ellipsis;
+    font-size:12px;
+    letter-spacing:0.3px;
+}
+#addtodo,#removetodo,#removealltodo{
+    width:220px;
+    height:30px;
+    text-align: center;
+    margin:auto;
+    margin-top: 20px;
+    margin-bottom: 10px;
+
+}
+
+button{
+    color:white;
+    background-color:rgb(55, 151, 240);
+    border:0.1em rgb(55, 151, 240);
+    border-radius: 3px;
+    padding: 3.5px;
+    margin-left:-35px;
+    display:block;
+    margin-top: 10px;
+    margin-bottom: 23px;
+    font-size: 20px;
+    font-family: 'Merriweather Sans', sans-serif;
+
+}
+
+button:hover{
+    background-color:rgb(1, 109, 191);
+}
+
+li{
+    overflow: hidden;
+    margin-left:10px;
+    margin-top: 8px;
+    margin-right: 53px;
+    padding:4px 8px;
+    border:1.3px solid #34669c;
+    border-radius: 3px;
+    text-align: left;
+    font-size: 18px;
+    background-color:rgb(250, 250, 250);
+    color:#34669c;
+    font-family: 'Josefin Sans', sans-serif;
+    margin-bottom: 15px;
+}
+    
+
+.list{
+    text-align: left;
+}
+
+
+
+  
+
+  
+  
+  
+  
+  
+
+
+
+
+
+
+
