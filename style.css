@@ -57,7 +57,7 @@ i{
 
 }
 
-#tocheck,#checked{
+.tocheck,.checked{
     width: 30px; 
     height: 30px; 
     
